@@ -89,3 +89,31 @@ body{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+/* Collection Style  */
+
+.collection img{
+    width: 300px;
+    height: 256px;
+    
+}
+.collection-name{
+    color: #18191F;
+    font-size: 28px;
+    padding-top: 16px;
+}
+.collection-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+}
+
+
+
+.collection-containers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 30px;
+}
+.collection-title{
+    text-align: center;
+}
